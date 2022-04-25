@@ -9,13 +9,17 @@ body{
 	max-width: 90%;
 	margin: 5%;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("bg2.jpg");
+	background-image: url("bg.jpg");
 	background-color: #cccccc;
 	background-position: bottom right;
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
-	
+	color: darkred;
+	font-weight: 600;
+	word-spacing: 6px;
 	font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0;
+    text-align: justify;
 }
 /*Using only the tag as a selector, 
 italicize all quotations.*/
@@ -37,7 +41,7 @@ Put the words "Good" in green*/
 }
 /*Select an element of the header and 
 gives it a yellow background (use the child selector)*/
-header>*{
+header>h1, header>em{
 	background-color: yellow;
 }
 /*Capitalize all instances of the words "good" and "bad".*/
@@ -62,5 +66,9 @@ p:first-child{
 /**/
 .storyimage{
 	float: left;
+	margin: 0;
 	margin-right:30px;
+}
+figcaption{
+	color: black;
 }
