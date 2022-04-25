@@ -10,7 +10,7 @@ body{
 	margin-left: 5%;
 	margin-right: 5%;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("images/bg1.jpg");
+	background-image: url("../images/bg1.jpg");
 	background-color: #cccccc;
 	background-position: bottom right;
 	background-repeat: no-repeat, repeat;
