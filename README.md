@@ -1,8 +1,23 @@
 Useful links/Data:
 
-Css Frameworks: 
-	Bootstrap
-	Tailwind
+HTML Semantics
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element#inline_text_semantics
+https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
+https://learn-the-web.algonquindesign.ca/topics/html-semantics-checklist/
+
+
+
+
+CSS Selectors:
+https://www.w3schools.com/cssref/css_selectors.asp
+https://flukeout.github.io/
+
+
+
+
+
+
 
 SEO:
 Screen reader:
@@ -18,4 +33,5 @@ https://www.nvaccess.org/
 
 Download JAWS and use it in 40 minute increments for free. Use it with IE11.
 https://support.freedomscientific.com/Downloads/JAWS
+
 

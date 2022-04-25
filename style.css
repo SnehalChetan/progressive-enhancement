@@ -1,0 +1,60 @@
+/*Give the body a maximum width of 90%.
+Then, center the body by playing with the margin property
+Add a background image to your body
+Make sure that the image does not repeat itself
+Change its positioning to bottom right
+Changes its size to cover*/
+
+body{
+	max-width: 90%;
+	margin: 5%;
+
+	background-image: url("bg.png");
+	background-color: #cccccc;
+	background-position: bottom right;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Using only the tag as a selector, 
+italicize all quotations.*/
+p > q{
+	font-style: italic;
+}
+/*
+- Change the color of the quotes
+ according to the person speaking.
+- Put the words "Bad" in red
+ */
+.badmood,.bad{
+	color:#ff1e0f;
+}
+/*
+Put the words "Good" in green*/
+.happymood,.good{
+	color: #00b900;
+}
+/*Select an element of the header and 
+gives it a yellow background (use the child selector)*/
+header>*{
+	background-color: yellow;
+}
+/*Capitalize all instances of the words "good" and "bad".*/
+.good,.bad{
+	text-transform: capitalize;
+}
+
+/*Style the table so that 
+the background color of each row is alternating grey or white*/
+table tbody tr:nth-child(2n){
+	background-color: gray;
+}
+table tbody tr:nth-child(3n),
+table tbody tr:first-child{
+	background-color: white;
+}
+/*Put the first paragraph in bold*/
+p:first-child{
+	font-weight: bold ;
+}
