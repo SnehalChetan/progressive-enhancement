@@ -7,24 +7,31 @@ Changes its size to cover*/
 
 body{
 	max-width: 90%;
-	margin: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("bg.jpg");
+	background-image: url("bg1.jpg");
 	background-color: #cccccc;
 	background-position: bottom right;
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
 	color: darkred;
-	font-weight: 600;
+	font-weight: 500;
 	word-spacing: 6px;
 	font-family: Arial, Helvetica, sans-serif;
     line-height: 2.0;
     text-align: justify;
 }
+
+h2,summary{
+	color:  black;
+}
+
 /*Using only the tag as a selector, 
 italicize all quotations.*/
 p > q{
 	font-style: italic;
+	font-weight: 600;
 }
 /*
 - Change the color of the quotes
@@ -58,6 +65,21 @@ table tbody tr:nth-child(3n),
 table tbody tr:first-child{
 	background-color: white;
 }
+table{
+	border: 2px solid darkred;
+}
+table th{
+	background-color: #86eeff;
+	padding: 15px;
+}
+thead, td{
+	text-align: center;
+}
+td {
+    padding: 20px;
+   /* text-align: justify;*/
+}
+
 /*Put the first paragraph in bold*/
 p:first-child{
 	font-weight: bold ;
@@ -71,4 +93,20 @@ p:first-child{
 }
 figcaption{
 	color: black;
+}
+
+/* footer display inline */
+footer p{
+	
+	width: 100%;
+}
+footer p{
+	width: 50%;
+	display: inline-block;
+}
+footer p: first-child{
+	float: left;
+}
+footer p:nth-child(2){
+	float: right;
 }
