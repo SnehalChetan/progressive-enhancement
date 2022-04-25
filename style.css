@@ -81,7 +81,7 @@ td {
 }
 
 /*Put the first paragraph in bold*/
-p:first-child{
+article p:first-child{
 	font-weight: bold ;
 }
 
