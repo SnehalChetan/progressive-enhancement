@@ -93,6 +93,8 @@ article p:first-child{
 }
 figcaption{
 	color: black;
+	font-style: italic;
+    font-size: small;
 }
 
 /* footer display inline */
