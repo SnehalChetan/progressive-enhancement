@@ -1,4 +1,6 @@
-Useful links/Data:
+
+Output URl : https://snehalchetan.github.io/progressive-enhancement/
+
 
 HTML Semantics
 
@@ -7,17 +9,12 @@ https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
 https://learn-the-web.algonquindesign.ca/topics/html-semantics-checklist/
 
 
-
-
 CSS Selectors:
 https://www.w3schools.com/cssref/css_selectors.asp
 https://flukeout.github.io/
 
-
-
-
-
-
+Useful links/Data:
+https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/
 
 SEO:
 Screen reader:
